@@ -1,3 +1,2 @@
-function getLength(obj: string | string[]){
-   return obj.length;
-}
+var message:string = "Hello World"
+alert(message);
