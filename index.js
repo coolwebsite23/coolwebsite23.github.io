@@ -1,5 +1,5 @@
 document.title = "HOME PAGE";
-document.getElementById("button").addEventListener("click", randomnumber);
-function randomnumber(){
+var button = document.getElementById("button");
+button.addEventListener("click", function(event){
   document.write(math.random() * 1000);
-}
+});
