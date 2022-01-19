@@ -1,8 +1,12 @@
 document.title = "HOME PAGE";
-function rand(){
-  document.write(Math.floor(Math.random() * 1000));
+function links(){
+  document.getElementById("links").style.display = "block";
 }
-document.body.style.display ="none";
-window.setTimeout(function(){
-  document.body.style.display = "block";
-}, 5000);
+if(document.body.onerror){
+   var script = prompt("do you want to turn off JavaScript for this website? (true or false)");
+   if(script == true){
+     debugger;
+   }else{
+     console.log("no");
+   }
+}
