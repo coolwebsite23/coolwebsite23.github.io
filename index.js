@@ -10,3 +10,4 @@ if(document.body.onerror){
      console.log("no");
    }
 }
+doc;
