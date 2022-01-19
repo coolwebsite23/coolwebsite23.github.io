@@ -1,7 +1,7 @@
 document.title = "Home Page";
 var h1 document.createElement("h1")
 h1.innerText = document.title;
-document.body.appendChild("h1");
+document.body.appendChild(h1);
 var hr = document.createElement("hr");
 var hrp = document.createElement("p");
 hrp.innerText = "Some Text";
