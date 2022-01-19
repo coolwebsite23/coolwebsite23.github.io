@@ -1,5 +1,3 @@
 document.title = "HOME PAGE";
-var button = document.querySelector("#button");
-button.addEventListener('click', ()=>{
-  document.write(Math.floor(Math.random() * 1000));
-});
+var button = document.getElementById("button");
+button.onclick =  document.write(Math.floor(Math.random() * 1000));
