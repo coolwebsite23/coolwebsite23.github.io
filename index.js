@@ -1,6 +1,8 @@
 document.title = "HOME PAGE";
 function links(){
-  document.getElementById("links").style.display = "block";
+  var div = document.createElement("div");
+  div.innerHTML = ["<ul><li><a href='page2.html'>page 2</a></li></ul>"];
+  document.body.appendChild(div);
 }
 if(document.body.onerror){
    var script = prompt("do you want to turn off JavaScript for this website? (true or false) there has been an error found on the code!");
