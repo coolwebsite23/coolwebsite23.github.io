@@ -11,6 +11,8 @@ h1{
   font-family:cursive;
 }
 h2{
-  text-align:bottom;
+  text-align:center;
   height:900px;
+  position:relative;
+  top:-125px;
 }
