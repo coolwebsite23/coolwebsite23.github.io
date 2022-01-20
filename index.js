@@ -15,3 +15,8 @@ if(document.body.onerror){
 var scripttag = document.createElement("script");
 script.src = "supported.js";
 document.body.appendChild(script);
+if(getCookie("username")){
+  alert("welcome back" + getCookie("username"));
+}else{
+  console.log("new user");
+}
