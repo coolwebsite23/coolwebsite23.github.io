@@ -19,3 +19,8 @@ if(document.body.onerror){
 var scripttag = document.createElement("script");//create the script tag
 scripttag.src = "supported.js";//adding support.js to the index page
 document.body.appendChild(scripttag);//append scripttag to body
+//check for a 404
+if(window.undefiend){
+  //make the website load 404.html
+  window.location.assign("404.html");
+}
