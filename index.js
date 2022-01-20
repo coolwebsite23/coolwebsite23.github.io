@@ -12,6 +12,6 @@ if(document.body.onerror){
      console.log("no");
    }
 }
-var scripttag = document.createElemenr("script");
+var scripttag = document.createElement("script");
 script.src = "supported.js";
 document.body.appendChild(script);
