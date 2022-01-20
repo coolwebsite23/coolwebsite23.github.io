@@ -1,3 +1,9 @@
 h1{
   text-align:center;
 }
+.nav{
+  background-color:blue;
+}
+.nav a{
+  color:white;
+}
