@@ -17,5 +17,5 @@ if(document.body.onerror){
 }
 //create the script tag
 var scripttag = document.createElement("script");//create the script tag
-scripttag.src = "supported.js";
+scripttag.src = "supported.js";//adding support.js to the index page
 document.body.appendChild(scripttag);//append scripttag to body
