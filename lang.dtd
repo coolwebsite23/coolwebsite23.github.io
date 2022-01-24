@@ -2,8 +2,10 @@
   <!ELEMENT Text(text)>
   <!ELEMENT text(#PCDATA)>
 ]>
-<!ELEMENT PAGE(page)>
+<!DOCTYPE PAGE [
+  <!ELEMENT Page(page)>
+  <ELEMENT page(#PCDATA)>
+]>
 <!ATTLIST PAGE xmlns:xlink CDATA #FIXED 'http://google.com'
                xlink:type (simple) #FIXED 'simple'
                xlink:href CDATA #REQUIRED>
-<!ELEMENT page (#PCDATA)>
