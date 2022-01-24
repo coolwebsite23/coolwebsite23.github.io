@@ -2,3 +2,9 @@
   <!ELEMENT Text(text)>
   <!ELEMENT text(#PCDATA)>
 ]>
+<DOCTYPE horiz [ 
+  <!ELEMENT horiz EMPTY>
+]>
+<DOCTYPE any [
+ <!ELEMENT Any ANY>
+]
