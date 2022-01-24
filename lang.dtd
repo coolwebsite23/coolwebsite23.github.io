@@ -5,6 +5,6 @@
 <DOCTYPE horiz [ 
   <!ELEMENT horiz EMPTY>
 ]>
-<DOCTYPE any [
- <!ELEMENT Any ANY>
+<DOCTYPE Header [
+ <!ELEMENT header ANY>
 ]
