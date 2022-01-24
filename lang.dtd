@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<!DOCTPYE address [
+  <!ELEMENT address (name,company,phone)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT comapny (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+]>
+<!ELEMENT address(name,company,phone)>
+<!DOCTYPE p [
+  <!ELEMENT p ANY>
+]>
