@@ -1,5 +1,9 @@
 <!DOCTYPE TEXT [
   <!ELEMENT Text(text)>
   <!ELEMENT text(#PCDATA)>
-  <!ElEMENT page(#PCDATA|a)*>
 ]>
+<!DOCTYPE PAGE [
+  <!ELEMENT Page(page)>
+  <!ELEMENT page(#PCDATA)>
+  <!ATTLIST page href CDATA #REQUIRED>
+]
