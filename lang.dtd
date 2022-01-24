@@ -4,7 +4,7 @@
   <!ELEMENT comapny (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 ]>
-<!ELEMENT address(name,company,phone)>
-<!DOCTYPE p [
-  <!ELEMENT p ANY>
+<!DOCTYPE Text [
+  <!ELEMENT text (p)>
+  <!ELEMENT p (#PCDATA)>
 ]>
