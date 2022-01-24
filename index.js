@@ -24,10 +24,3 @@ if(window.undefiend){
   //make the website load 404.html
   window.location.assign("404.html");
 }
-if("title" in document){
-  //supported
-  console.log("supported");
-}else{
-  //not supported
-  alert("your webbrowser does not support our website!");
-}
