@@ -1,2 +1,2 @@
-<!DOCTYPE Any SYSTEM "lang.dtd">
-<any type="text/javascript">alert("hello");</any>
+<!DOCTYPE Header SYSTEM "lang.dtd">
+<header>Thank you </header>
