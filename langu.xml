@@ -1,7 +1,4 @@
-<!DOCTYPE address SYSTEM "lang.dtd">
-<address>
-  <name>bob</name>
-  <company>company</company>
-  <phone>28483838238</phone>
-</address>
-<p>hello</p>
+<!DOCTYPE TEXT SYSTEM "lang.dtd">
+<Text>
+  <text>hello</text>
+</Text>
