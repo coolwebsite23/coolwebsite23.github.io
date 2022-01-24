@@ -7,3 +7,10 @@ if("body" in document){
     document.write("Your webbrowser does not support are website");
   }
 }
+if("title" in document){
+  //supported
+  console.log("supported");
+}else{
+  //not supported
+  alert("your webbrowser does not support our website!");
+}
