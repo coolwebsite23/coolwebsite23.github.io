@@ -1,8 +1,4 @@
-<!DOCTYPE TEXT SYSTEM "lang.dtd">
 <!DOCTYPE PAGE SYSTEM "lang.dtd">
-<Text>
-  <text>hello</text>
-</Text>
 <Page>
   <page xlink:href ="index.html">home</page>
 </Page>
