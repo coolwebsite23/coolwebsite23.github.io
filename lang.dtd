@@ -1,4 +1,5 @@
 <!DOCTYPE TEXT [
   <!ELEMENT Text(text)>
   <!ELEMENT text(#PCDATA)>
+  <!ElEMENT page(#PCDATA|a)*>
 ]>
