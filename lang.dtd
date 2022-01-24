@@ -1,10 +1,4 @@
-<!DOCTPYE address [
-  <!ELEMENT address (name,company,phone)>
-  <!ELEMENT name (#PCDATA)>
-  <!ELEMENT comapny (#PCDATA)>
-<!ELEMENT phone (#PCDATA)>
-]>
-<!DOCTYPE Text [
-  <!ELEMENT text (p)>
-  <!ELEMENT p (#PCDATA)>
+<!DOCTYPE TEXT [
+  <!ELEMENT Text(text)>
+  <!ELEMENT text(#PCDATA)>
 ]>
