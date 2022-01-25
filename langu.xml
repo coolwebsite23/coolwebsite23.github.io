@@ -1,2 +1,2 @@
-<!DOCTYPE Header SYSTEM "lang.dtd">
-<header>Thank you </header>
+<!DOCTYPE Script SYSTEM "lang.dtd">
+<script src="index.js">alert("hi")</script>
