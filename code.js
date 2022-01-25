@@ -34,7 +34,7 @@ function checkCookie() {
 const Cookies = {
   Enabled:false,
     enabled:function() {
-      if(navigator.cookieEnabled){console.log("cookies enabled")}else{alert("Enable Cookies!")}
+      if(navigator.cookiesEnabled){console.log("cookies enabled")}else{alert("Enable Cookies!")}
     }
 }
 const cookies = Object.create(Cookies);
