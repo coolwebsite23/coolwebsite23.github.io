@@ -8,7 +8,3 @@
 <DOCTYPE Header [
  <!ELEMENT header ANY>
 ]
-<!DOCTYPE Script [
- <!ELEMENT script ANY>
- <ATTLIST script src CDATA #REQUIRED>
- ]
