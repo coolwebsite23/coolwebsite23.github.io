@@ -31,6 +31,4 @@ function checkCookie() {
     }
   }
 }
-var header = document.getElementsByTagName("header");
-header.id = "header";
-document.getElementById("header").class = "header";
+document.getElementsByTagName("header").innerHTML = "<h1>" + document.getElemenntByTagName("header").innerText + "</h1>;
