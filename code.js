@@ -31,4 +31,10 @@ function checkCookie() {
     }
   }
 }
-document.getElementsByTagName("header").innerHTML = "<h1>" + document.getElementsByTagName("header").innerText + "</h1>";
+const Cookies = {
+  Enabled:false,
+    enabled:function() {
+      if(navigator.cookieEnabled){console.log("cookies enabled")}else{alert("Enable Cookies!")}
+    }
+}
+const cookies = Object.create(Cookies);
