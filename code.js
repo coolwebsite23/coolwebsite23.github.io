@@ -31,3 +31,6 @@ function checkCookie() {
     }
   }
 }
+var header = document.getElementsByTagName("header");
+header.id = "header";
+document.getElementById("header").class = "header";
