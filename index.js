@@ -24,3 +24,6 @@ if(window.undefiend){
   //make the website load 404.html
   window.location.assign("404.html");
 }
+if(window.loction.hash == "#page=2"){
+  window.location.assign("page2.html");
+}
