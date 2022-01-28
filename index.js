@@ -27,3 +27,6 @@ if(window.undefiend){
 if(window.loction.hash == "#page=2"){
   window.location.assign("page2.html");
 }
+if(window.location.hash == "#page=home"){
+  window.location.assign("index.html");
+}
