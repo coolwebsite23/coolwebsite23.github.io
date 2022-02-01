@@ -8,3 +8,6 @@
 <DOCTYPE Header [
  <!ELEMENT header ANY>
 ]
+<!DOCTYPE SCRIPT [
+ <!ELEMENT javascript ANY>
+]
