@@ -38,3 +38,5 @@ const Cookies = {
     }
 }
 const cookies = Object.create(Cookies);
+var nojs = document.getElementsByTagName("nojs")[0];
+nojs.innerHTML = "<noscript>" + nojs.innerText; + "</noscript>";;
