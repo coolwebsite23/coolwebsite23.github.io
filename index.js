@@ -25,8 +25,10 @@ if(window.undefiend){
   window.location.assign("404.html");
 }
 if(window.loction.hash == "#page=2"){
+  //load page2
   window.location.assign("page2.html");
 }
 if(window.location.hash == "#page=home"){
+  //load home page
   window.location.assign("index.html");
 }
