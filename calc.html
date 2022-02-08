@@ -1,12 +1,11 @@
 <h1>Scientific calculator</h1>
-<input type="text" id="ans" value=""></input>
-<button onclick="one()" id="one">1</button>
-<button onclick="number()" id="two">2</button>
-<button onclick="number()" id="three">3</button>
-<button onclick="number()" id="four">4</button>
-<button onclick="pi()">PI</button>
+<button id="pi" onclick="pi()"></button>
+<input type="text" id="ques" value=""></input>
 <script>
-  function one(){
-    document.getElementById("ans").value = document.getElementById("one").value; 
+  function answer(){
+    if(document.getElementById("pi").onclick){
+      document.getElementById("ques").innerHTML = "<img src='pi.jpg'></img>";
+      document.getElementById("ques").value = document.getElementById("ques").innerHTML;
+    }    
   }
 </script>  
