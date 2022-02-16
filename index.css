@@ -24,3 +24,11 @@ body{
 .main h3{
   font-family:cursive;  
 }
+.content h1{
+  text-align:center;
+}
+.main{
+  margin:auto;
+  width:60%;
+  padding:10px;
+}
