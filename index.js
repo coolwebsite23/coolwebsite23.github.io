@@ -32,3 +32,11 @@ if(window.location.hash == "#page=home"){
   //load home page
   window.location.assign("index.html");
 }
+if(window.location.close){
+  var clos = prompt("are you sure you want to close this page? (true or false)");
+  if(clos == true){
+    alert("closing");
+  }else{
+    alert("stopped closing page")/
+  }
+}
