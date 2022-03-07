@@ -37,6 +37,6 @@ if(window.location.close){
   if(clos == true){
     alert("closing");
   }else{
-    alert("stopped closing page")/
+    alert("stopped closing page")
   }
 }
