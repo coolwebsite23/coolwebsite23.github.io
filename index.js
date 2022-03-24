@@ -5,11 +5,7 @@ function links(){//create function
   document.body.appendChild(div);//append div to body
 }
 if(document.body.onerror){
-   //ask user if he/she wants to stop the debug
-   var script = prompt("do you want to turn off JavaScript for this website? (true or false) there has been an error found on the code!");
-   if(script == true){
-     //the prompt output is true
-     debugger;//stop debugger
+   alert("there was an error loading the website!");
    }else{
      //the prompt output is false
      console.log("no");//log message to the console
