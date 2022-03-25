@@ -36,8 +36,8 @@ if(window.location.close){
     alert("stopped closing page")
   }
 }
-if(window.location.href == "https://collwebsite23.github.io/page2"){
+if(window.location.href > "https://collwebsite23.github.io/page2"){
   document.title = "page two";
-}else if(window.location.href == "https://coolwebsite23.github.io/page2.html"){
+}else if(window.location.href > "https://coolwebsite23.github.io/page2.html"){
   window.location.assign("page2");
 }
